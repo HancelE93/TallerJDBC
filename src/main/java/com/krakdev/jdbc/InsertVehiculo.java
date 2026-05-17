@@ -47,7 +47,7 @@ public class InsertVehiculo {
 				con.close();
 			} catch (SQLException e) {
 
-				log.error("Error de conexion: "+ e.getMessage());
+				e.printStackTrace();
 			}
 		}
 		
