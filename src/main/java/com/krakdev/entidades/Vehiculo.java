@@ -10,7 +10,6 @@ public class Vehiculo {
 	private String color;
 	private boolean disponible;
 	
-	
 	@Override
 	public String toString() {
 		return "Vehiculo [placa=" + placa + ", marca=" + marca + ", modelo=" + modelo + ", anio=" + anio + ", precio="
@@ -34,6 +33,7 @@ public class Vehiculo {
 		this.color = color;
 		this.disponible = disponible;
 	}
+	
 	
 	
 	public String getPlaca() {
