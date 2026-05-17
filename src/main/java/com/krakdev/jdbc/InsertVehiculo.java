@@ -26,11 +26,11 @@ public class InsertVehiculo {
 					""";
 			ps=con.prepareStatement(sql);
 			
-			ps.setString(1, "PBN9003");
+			ps.setString(1, "PBN9004");
 			ps.setString(2, "Hyundai");
-			ps.setString(3, "I10");
-			ps.setInt(4, 2011);
-			ps.setDouble(5, 7500);
+			ps.setString(3, "GranI10");
+			ps.setInt(4, 2018);
+			ps.setDouble(5, 15500);
 			ps.setString(6, "Rojo");
 			ps.setBoolean(7, true);
 			
