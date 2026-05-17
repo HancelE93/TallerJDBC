@@ -29,10 +29,11 @@ public class DeleteVehiculo {
 			
 			int filas = ps.executeUpdate();
 			
-			log.info("Filas eliminadas: " + filas );
+			log.info("!!Conexión realizada!!");
+			log.info("Vehículo eliminado: " + filas );
 
 		} catch (Exception e) {
-			log.error("Error al eliminar filas: "+ e.getMessage());
+			log.error("Error al eliminar vehiculos: "+ e.getMessage());
 		}finally{
 			try {
 				con.close();

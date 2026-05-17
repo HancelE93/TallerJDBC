@@ -38,6 +38,7 @@ public class SelectVehiculo {
 				String color = rs.getString("color");
 				boolean disponible = rs.getBoolean("disponible");
 
+				log.info("!!Conexión realizada!!");
 				log.info("VEHICULO:::: Placa: " + placa + " ,Marca: " + marca + " ,Modelo: " + modelo + " ,Año: "
 						+ anio + " ,Precio: " + precio + " ,Color: " + color + " ,Disponible: " + disponible);
 			}

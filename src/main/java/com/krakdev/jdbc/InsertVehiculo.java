@@ -37,11 +37,11 @@ public class InsertVehiculo {
 			
 			int filas = ps.executeUpdate();
 			log.info("!!Conexion Exitosa!!");
-			log.info("Filas insertadas: " + filas);
+			log.info("Vehículo insertado: " + filas);
 			
 
 		} catch (Exception e) {
-			log.error("Error de conexion: "+ e.getMessage());
+			log.error("Error al insertar vehiculo:: "+ e.getMessage());
 		}finally{
 			try {
 				con.close();

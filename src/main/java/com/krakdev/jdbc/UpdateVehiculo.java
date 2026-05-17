@@ -36,10 +36,11 @@ public class UpdateVehiculo {
 	
 			int filas = ps.executeUpdate();
 			
-			log.info("Filas actualizadas: " + filas );
+			log.info("!!Conexión realizada!!");
+			log.info("Vehículo actualizado: " + filas );
 
 		} catch (Exception e) {
-			log.error("Error al actualizar: "+ e.getMessage());
+			log.error("Error al actualizar vehiculo: "+ e.getMessage());
 		}finally{
 			try {
 				con.close();
