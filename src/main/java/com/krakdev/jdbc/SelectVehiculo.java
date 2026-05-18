@@ -37,10 +37,11 @@ public class SelectVehiculo {
 				double precio = rs.getDouble("precio");
 				String color = rs.getString("color");
 				boolean disponible = rs.getBoolean("disponible");
+				int kilometraje = rs.getInt("kilometraje");
 
 				log.info("!!Conexión realizada!!");
 				log.info("VEHICULO:::: Placa: " + placa + " ,Marca: " + marca + " ,Modelo: " + modelo + " ,Año: "
-						+ anio + " ,Precio: " + precio + " ,Color: " + color + " ,Disponible: " + disponible);
+						+ anio + " ,Precio: " + precio + " ,Color: " + color + " ,Disponible: " + disponible + " ,Kilometraje: " + kilometraje);
 			}
 
 		} catch (Exception e) {
